@@ -1,4 +1,12 @@
-# pixelbonus
+# pixelbonus (deprecated PHP version)
+
+This is **deprecated legacy code** implementing a system for rewarding students by handing out QR code paper tokens.
+See the (modern) system in action at [pixelbonus.com](https://www.pixelbonus.com).
+After more than ten years of reliable service, the implementation in this repository, based on Symfony and PHP,
+was deprecated following the publication of two critical PHP vulnerabilities
+ ([CVE-2026-109618](https://www.cve.org/CVERecord?id=CVE-2026-109618) and [CVE-2026-109619](https://www.cve.org/CVERecord?id=CVE-2026-109619))
+ and the lack of packaged updates for the PHP version it was implemented in.
+ The code has been replaced by a  [modern implementation](https://github.com/dspinellis/pixelbonus/) written in Go.
 
 ## Installing via puppet
 This repository contains a puppet script for setting up pixelbonus
